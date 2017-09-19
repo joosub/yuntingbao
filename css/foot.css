@@ -1,0 +1,218 @@
+/*---------------------页面基础定义----------------------------------*/
+*{ margin:0px; padding:0px; font-size:12px;}
+body,td,th { font-family: Microsoft YaHei;font-size: 12px;color: #666;}
+body { margin:0; padding:0; text-align:center}
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, blockquote, pre, form, fieldset, table, th, td, span{padding:0;margin:0;}
+.h15{ height:15px; clear:both;}
+.h5{ height:5px; clear:both;}
+.h10{ height:10px; clear:both;}
+.h25{ height:25px; clear:both;}
+.clear{ margin:0; padding:0; clear:both;}
+img{ border:0}
+ul{ list-style:none}
+
+
+/*---------------------链接定义----------------------------------*/
+a {color: #666;text-decoration: none;}
+a:hover {color: #666;text-decoration: none;}
+a:active{color: #666;text-decoration: none;}
+
+/*---------------------main----------------------------------*http:http://*---------------------导航----------------------------------*/
+
+.nav{width:1180px; height:96px; top:0; left:50%; margin-left:-590px; position:absolute; z-index:10000; overflow:hidden;}
+.menu{ width:1089px; float:left}
+.nav .menu a{ font-size:16px;font-family:微软雅黑; }
+.nav .menu a:hover{ text-decoration:underline}
+.menu ul{ list-style-type:none; padding:0px; margin:0 auto;}
+.m_li_img{ float:left; width:243px;}
+.m_li{ float:left; width:140px; line-height:96px;  text-align:center; border-right:1px solid #c3c3c3; background:#e0e0e0;opacity:0.9; filter: Alpha(Opacity=90);  
+}
+
+
+/*---------------------中英文切换----------------------------------*/
+.zySwitch{ width:91px; float:left}
+.m_Swich{ height:48px; line-height:48px}
+.m_Swich a{ font-size:12px;font-family:微软雅黑; color:#fff}
+.m_Swich a:hover{ text-decoration:underline}
+#china{ background:#be100b}
+#english{ background:#010101}
+
+
+/*---------------------焦点图----------------------------------*/
+
+
+
+.pagewrap {width:100%; height: 559px;}
+.pageblock {width: 100%; height:559px}
+.pageblock#fullscreen {	height: 100%;background: none;color: white;}
+.pageblock#fullscreen .slider {width: 100%;height: 100%;overflow: hidden;position: relative;}
+.pageblock#fullscreen .slider .slide {width: 100%;height: 100%;top: 0;left: 0;float: left;position: absolute;}
+
+.pageblock#fullscreen #slideposition {position: absolute;top:530px;left: 45%;}
+.pageblock#fullscreen #slideposition ul {list-style-type: none;	margin: 0;padding: 0; display:inline}
+.pageblock#fullscreen #slideposition ul li.indicator { display:block; float:left; height: 10px;width: 10px; background:url(imgPlayer_2.png)/*tpa=http://www.yidongec.com/image/imgPlayer_2.png*/ no-repeat; margin: 0px 7px;padding: 0;-webkit-border-radius: 999px;-moz-border-radius: 999px;border-radius: 999px;overflow: hidden;cursor: pointer;}
+.pageblock#fullscreen #slideposition ul li.indicator.active { background:url(imgPlayer_1.png)/*tpa=http://www.yidongec.com/image/imgPlayer_1.png*/ no-repeat}
+
+
+
+/*---------------------服务客户----------------------------------*/
+.Service{ background:url(../img/foot/footerTop_bg.jpg)/*tpa=http://www.yidongec.com/image/service_bg.jpg*/ repeat-x; height:165px; width:100%}
+.s_Content{ width:1180px; clear:both;margin:0 auto; padding:0;}
+.s_img{ float:left; width:154px}
+.rollBox{width:1026px; float:left} 
+.rollBox .LeftBotton{height:168px;width:16px;background:url(s_player_l.png)/*tpa=http://www.yidongec.com/image/s_player_l.png*/  no-repeat 0 68px;overflow:hidden;float:left;display:inline;cursor:pointer;} 
+.rollBox .RightBotton{height:168px;width:16px;background:url(s_player_r.png)/*tpa=http://www.yidongec.com/image/s_player_r.png*/ no-repeat 0 68px;overflow:hidden;float:left;display:inline;cursor:pointer;} 
+.rollBox .Cont{width:956px;overflow:hidden;float:left; padding-top:8px; margin-left:19px; margin-right:19px; height:125px} 
+.rollBox .ScrCont{width:10000000px; height:125px; padding-top:10px} 
+.rollBox .Cont .pic{width:212px;float:left; height:105px;padding:10px 13px; margin:0} 
+.rollBox .Cont .pic img{ width:212px;display:block;} 
+.rollBox #List1,.rollBox #List2{float:left;}
+  
+
+
+/*---------------------服务项目----------------------------------*/
+.SerItems{ width:100%; background:#f3f3f3; height:480px}
+.ItemBox{ width:1180px; clear:both; margin:0 auto; padding-top:30px}
+.Item1,.Item2{ width:274px; float:left}
+.Item2{ margin-left:28px}
+.Item_head{ text-align:left; padding-top:23px; padding-bottom:15px; font-size:26px; font:微软雅黑; color:#222; font-weight:bold}
+.Item_Intro{ font-size:14px;font-family:微软雅黑; color:#444444; line-height:24px; text-align:left; padding:2px}
+
+
+/*---------------------底部----------------------------------*/
+.footer_top{ width:100%; background:url(../img/foot/footerTop_bg.jpg)/*tpa=http://www.yidongec.com/image/footerTop_bg.jpg*/ repeat-x; height:250px; overflow:hidden; color:#b7b7b7; text-align:left; line-height:22px}
+.footer_top a{ color:#b7b7b7;}
+.footer_top a:hover{ color:#fff; }
+.footer_t_box{ width:1180px; margin:0 auto;}
+.f_t_l{ float:left; text-align:left; width:181px}
+.lxfs_btn{ float:left}
+.footer_list_box{ float:left; padding:0 35px}
+.footer_l_h1{ height:27px; font-size:16px; font:微软雅黑; color:#000; line-height:27px}
+.footer_l_h1 a{ height:27px; font-size:16px; font:微软雅黑; color:#fff; line-height:27px; font-weight:bold}
+.f_list a{ padding-left:12px}
+.f_list a{ background:url(../img/list.png)/*tpa=http://www.yidongec.com/image/list.png*/ no-repeat 1px;}
+.f_list a:hover{ background:url(../img/listhover_bg.png)/*tpa=http://www.yidongec.com/image/listhover_bg.png*/ no-repeat 1px;}
+.footer_bottom{ width:100%; background:url(../img/foot/footerBottom_bg.jpg)/*tpa=http://www.yidongec.com/image/footerBottom_bg.jpg*/ repeat-x; height:44px; line-height:44px overflow:hidden; border-top: solid 1px #7c7c7c; color:#b7b7b7}
+.f_b_box{ width:1180px; margin: auto}
+.beian{ line-height:44px; float:left; padding-left:330px; padding-right:10px}
+.beian a{ color:#b7b7b7;}
+.beian a:hover{ color:#fff}
+.lanSelect{ float:left; line-height:44px; background:url(language1.jpg)/*tpa=http://www.yidongec.com/image/language1.jpg*/ no-repeat; padding-left:20px; padding-right:40px; top:-1px}
+
+
+
+/*---------------------联系我们页面样式----------------------------------*/
+.ContactUs{ background:url(ContactUs_bg.jpg)/*tpa=http://www.yidongec.com/image/ContactUs_bg.jpg*/ repeat-x; height:493px; width:100%}
+.h62{ height:62px; margin:0; clear:both; padding:0}
+.Contact_box{ width:1180px; margin:0 auto;}
+.Contact_b_left{ float:left; text-align:left}
+.Contact_h1{ height:40px}
+.Contact_intro{ padding-top:10px}
+.Contact_intro p{ font-size:14px; font-family:微软雅黑; line-height:24px; padding:10px 0; color:#666666}
+.Contact_map{ width:779px; float:right}
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+
+
+/*---------------------核心竞争力样式----------------------------------*/
+.hxjzl_box{
+	height:1027px;
+	width:100%;
+	background-image: url(hexin_jzl_bg.jpg)/*tpa=http://www.yidongec.com/image/hexin_jzl_bg.jpg*/;
+	background-repeat: repeat-x;
+}
+.hxjzl_Content{ width:1180px; margin:0 auto; height:1027px}
+
+
+
+/*---------------------了解亿动样式----------------------------------*/
+.ljyd_box{
+	width:100%;
+	height:2770px
+}
+.ljyd1{ width:100%; background:url(ljyd1.jpg)/*tpa=http://www.yidongec.com/image/ljyd1.jpg*/ no-repeat top; display:block; height:563px}
+.ljyd2{ width:100%; background:url(ljyd2.jpg)/*tpa=http://www.yidongec.com/image/ljyd2.jpg*/ no-repeat top; display:block; height:398px}
+.ljyd3{
+	width:100%;
+	display:block;
+	height:1813px;
+	background-image: url(ljyd4.jpg)/*tpa=http://www.yidongec.com/image/ljyd4.jpg*/;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+
+/*---------------------经典案例样式----------------------------------*/
+.h3{ width:100%; height:3px; clear:both; background:#bd100a}
+.CompanyCase{ width:100%; height:1648px;FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ebebeb,endColorStr=#ffffff); /*IE*/ 
+background:-moz-linear-gradient(top,#ebebeb,#ffffff);/*火狐*/ 
+background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#ebebeb), to(#ffffff));/*谷歌*/ 
+}
+.h28{ height:28px; width:100%; clear:both}
+.CompanyCase_box1{ width:1180px; margin:0 auto;}
+.SearchBox{ width:1180px; height:75px; margin:0 auto; background:url(CaseSearch_bg.jpg)/*tpa=http://www.yidongec.com/image/CaseSearch_bg.jpg*/ no-repeat; line-height:75px}
+#search_form{ height:34px; width:340px; float:right; margin-top:22px; margin-right:44px}
+.SearchBox #s{ width:245px; height:32px; padding-left:10px; font-size:14px; font-family:微软雅黑; color:#666666; float:left; border:1px solid #cdcdcd; border-right:none}
+.SearchBox #go{ float:right; width:83px;}
+.CompanyCase_Brand{
+	width:1180px;
+	clear:both;
+	border-bottom: solid 1px #b5b5b5;
+	height:200px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 45px;
+	padding-right: 0;
+	padding-bottom: 45px;
+	padding-left: 0;
+}
+.BrandList_l,.BrandList_r,.BrandList{ float:left}
+.BrandName{ font-size:16px; font-family:微软雅黑; color:#666; padding-top:10px}
+.BrandList_l{ padding-left:0; margin:0}
+.BrandList_r{float:right; margin-right:0; padding-right:0}
+.BrandList{ padding:0 20px}
+.h2{ width:100%; height:2px; clear:both}
+.Case_jz{ width:1180px; margin:0 auto; height:47px}
+.h54{ height:54px; width:100%; clear:both}
+
+
+/*---------------------合作模式样式----------------------------------*/
+.hzms_box{ width:100%; background:url(hzms_bj1.jpg)/*tpa=http://www.yidongec.com/image/hzms_bj1.jpg*/ no-repeat top;}
+.position_now{ width:1180px; margin:0 auto; text-align:left}
+.h144{ height:145px; width:100%; clear:both}
+/*=========mF_tab--========*/
+#main1{ width:100%;clear:both;padding-bottom:50px}
+.tabs1{height: auto !important;width: 100%;border: 0;background-color: transparent;}
+.menu1{width: 1180px; margin:0 auto}
+.menu1 li{float:left;width:160px;height:43px;line-height:43px;text-align:center;margin-right:2px; border-top:2px solid #000; cursor:pointer;background:#4b4c4c; font-size:18px; font-family:微软雅黑; color:#fff}
+.menu1 li.hover{height:43px;background:#fff; font-size:18px; border-top:2px solid #b7110d; font-family:微软雅黑; color:#666}
+#main1 ul{ width:1180px; margin:0 auto;display: none; text-align:left}
+#main1 ul.block{display: block;}
+
+
+
+/*---------------------加入我们样式----------------------------------*/
+.jrwm_box{ width:100%; background:url(jrwm_bg.jpg)/*tpa=http://www.yidongec.com/image/jrwm_bg.jpg*/ no-repeat top;}
+#main0{ width:100%; clear:both;padding-bottom:50px}
+/*第一种形式*/
+#tabs0 {height: auto !important;width: 100%;border: 0;background-color: transparent;}
+.menu0{width: 1180px; margin:0 auto}
+.menu0 li{float:left;width:160px;height:43px;line-height:43px;text-align:center;margin-right:2px; border-top:2px solid #000; cursor:pointer;background:#4b4c4c; font-size:18px; font-family:微软雅黑; color:#fff}
+.menu0 li.hover{height:43px;background:#fff; font-size:18px; border-top:2px solid #b7110d; font-family:微软雅黑; color:#666}
+#main0 ul{ width:1180px; margin:0 auto;display: none; text-align:left}
+#main0 ul.block{display: block;}
+.zpzw{ text-align:left; padding-top:30px; font-size:14px; font-family:微软雅黑; padding-left:2px}
+.joinUs_zwmc_red{background:url(joinUs_h2_bg.png)/*tpa=http://www.yidongec.com/image/joinUs_h2_bg.png*/ no-repeat; width:158px; height:39px; line-height:39px; font-size:22px; font-weight:bold; text-align:center; color:#fff}
+.joinUs_zwmc_red1{background:url(joinUs_h2_bg1.png)/*tpa=http://www.yidongec.com/image/joinUs_h2_bg1.png*/ no-repeat; width:300px; height:39px; line-height:39px; font-size:22px; font-weight:bold; text-align:center; color:#fff}
+.joinUs_zwmc_blue{ background:url(joinUs_h1_bg.png)/*tpa=http://www.yidongec.com/image/joinUs_h1_bg.png*/ no-repeat; width:158px; height:39px; line-height:39px; font-size:22px; font-weight:bold; text-align:center; color:#fff}
+.joinUs_zwmc_green{ background:url(joinUs_h3_bg.png)/*tpa=http://www.yidongec.com/image/joinUs_h3_bg.png*/ no-repeat; width:158px; height:39px; line-height:39px; font-size:22px; font-weight:bold; text-align:center; color:#fff}
+.joinUs_zwmc_green1{ background:url(joinUs_h3_bg1.png)/*tpa=http://www.yidongec.com/image/joinUs_h3_bg1.png*/ no-repeat; width:300px; height:39px; line-height:39px; font-size:22px; font-weight:bold; text-align:center; color:#fff}
+.joinUs_zwmc_blue1{ background:url(joinUs_h1_bg1.jpg)/*tpa=http://www.yidongec.com/image/joinUs_h1_bg1.jpg*/ no-repeat; width:258px; height:39px; line-height:39px; font-size:22px; font-weight:bold; text-align:center; color:#fff}
+.joinUs_img1{ clear:both; height:18px; padding-top:15px; padding-bottom:12px}
+.joinUs_p1{ font-size:14px; line-height:24px; width:800px}
+.joinUs_p1 p{ font-size:14px; line-height:24px}
+.joinUs_top .joinUs_top_1,.joinUs_top_2{ font-size:20px; line-height:40px}
+.joinUs_top .joinUs_top_1{ color:#444}
+.joinUs_top .joinUs_top_2{ color:#0a0a0a}

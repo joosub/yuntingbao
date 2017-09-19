@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 系统样式，CMS定义 By Makey QQ:309770214 */
+body{font-family:"微软雅黑";font-size:12px;color:#393939;margin:0;background:#fff;}
+html{overflow-x:hidden;overflow-y:auto} 
+
+*{margin:0 auto}
+.left{float:left}
+.right{float:right}
+td {font-family:"微软雅黑";font-size:12px;color:#393939}
+p,ul{list-style:none;margin:0;padding:0;border:0px}
+.clear{ clear:both;}/*清除浮动*/
+a{color:#555;behavior:url("onfocus.htc")/*tpa=http://www.taipuglobal.com/images/systemfiles/onfocus.htc*/; text-decoration:none}/*去掉点击虚线*/
+a:visited{color:#555}
+.keyword{background-color: #FFFF00;}/*搜索高亮关键词*/
+h1{ font-size:28px; font-weight:100; color:#4a4a4a}
+img{border:none;}
+
+
+.zp_banner{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	background: url(../img/zhaopins.jpg) no-repeat top center;
+}
+.makey_index_topbox{ width:100%; position:relative}
+.makey_munebox{ width:100%; height:80px; background-color:rgba(0,0,0,0.1); z-index:9; position:absolute; position:fixed;}
+.makey_mune{ width:1000px; margin:0 auto; height:80px;}
+.makey_mune_logo{ width:320px; height:80px; float:left;}
+.makey_mune_logo img{ padding-top:25px;}
+.makey_mune_nav{ width:470px; height:80px; float:left; padding-left:100px;}
+.makey_mune_nav li{ width:100px; height:80px; float:left; list-style:none;}
+.makey_mune_nav li a{ color:#FFF; font-size:16px; font-family:"微软雅黑"; padding-top:30px; padding-left:18px; float:left; text-decoration:none;}
+.makey_mune_nav li a:hover{ color:#d71e25}
+.makey_mune_en{ width:94px; height:80px; float:left}
+.makey_mune_en img{ padding-top:28px;}
+
+.makey_index_banner{ width:100%; height:800px; background:url(banner.jpg)/*tpa=http://www.taipuglobal.com/images/banner.jpg*/ center repeat-x}
+.makey_index_box2{ width:100%; position:relative; background:#f5f5f5}
+.makey_index_hexin{ width:1000px; margin:0 auto;}
+.makey_index_hexin_title{ padding-top:66px; padding-bottom:60px; text-align:center; width:1000px;}
+.makey_index_hexin_content{ width:1000px; float:left; padding-top:10px; padding-bottom:2px;}
+.makey_index_hexin_content li{ float:left; list-style:none; width:220px; padding-right:30px; text-align:center; font-size:14px; color:#666;}
+.makey_index_hexin_content li img{ padding:26px 48px 13px 48px;}
+.makey_index_hexin_content_title{padding:10px; color:#4a4a4a; font-size:18px;}
+.makey_index_hexin_img{ width:100%; height:336px; background:url(index-bg01.jpg)/*tpa=http://www.taipuglobal.com/images/index-bg01.jpg*/ center repeat-x}
+
+.makey_index_box3{ width:100%; height:680px; background:url(index-bg02.jpg)/*tpa=http://www.taipuglobal.com/images/index-bg02.jpg*/ center repeat-x}
+.makey_index_brand{ width:1012px; margin:0 auto}
+.makey_index_brand_title{ width:1012px; text-align:center; padding-top:70px; padding-bottom:70px;}
+.makey_index_brand_content{ width:1012px;}
+.makey_index_brand_content li{  float:left; list-style:none; margin:0 6px 12px 6px; background:#eceaeb; width:240px; height:170px;}
+.makey_index_brand_content li:hover{background:#f4f3f3; }
+
+.makey_index_brand_content .index_brand01{ display:block; width:240px; height:170px; background:url(brand-01.png)/*tpa=http://www.taipuglobal.com/images/brand-01.png*/}
+.makey_index_brand_content .index_brand01:hover{ background:url(brand-01.png)/*tpa=http://www.taipuglobal.com/images/brand-01.png*/ center 170px;}
+.makey_index_brand_content .index_brand02{ display:block; width:240px; height:170px; background:url(brand-02.png)/*tpa=http://www.taipuglobal.com/images/brand-02.png*/}
+.makey_index_brand_content .index_brand02:hover{ background:url(brand-02.png)/*tpa=http://www.taipuglobal.com/images/brand-02.png*/ center 168px;}
+.makey_index_brand_content .index_brand03{ display:block; width:240px; height:170px; background:url(brand-03.png)/*tpa=http://www.taipuglobal.com/images/brand-03.png*/}
+.makey_index_brand_content .index_brand03:hover{ background:url(brand-03.png)/*tpa=http://www.taipuglobal.com/images/brand-03.png*/ center 170px;}
+.makey_index_brand_content .index_brand04{ display:block; width:240px; height:170px; background:url(brand-04.png)/*tpa=http://www.taipuglobal.com/images/brand-04.png*/}
+.makey_index_brand_content .index_brand04:hover{ background:url(brand-04.png)/*tpa=http://www.taipuglobal.com/images/brand-04.png*/ center 170px;}
+.makey_index_brand_content .index_brand05{ display:block; width:240px; height:170px; background:url(brand-05.png)/*tpa=http://www.taipuglobal.com/images/brand-05.png*/}
+.makey_index_brand_content .index_brand05:hover{ background:url(brand-05.png)/*tpa=http://www.taipuglobal.com/images/brand-05.png*/ center 169px;}
+.makey_index_brand_content .index_brand06{ display:block; width:240px; height:170px; background:url(brand-06.png)/*tpa=http://www.taipuglobal.com/images/brand-06.png*/}
+.makey_index_brand_content .index_brand06:hover{ background:url(brand-06.png)/*tpa=http://www.taipuglobal.com/images/brand-06.png*/ center 169px;}
+.makey_index_brand_content .index_brand07{ display:block; width:240px; height:170px; background:url(brand-07.png)/*tpa=http://www.taipuglobal.com/images/brand-07.png*/}
+.makey_index_brand_content .index_brand07:hover{ background:url(brand-07.png)/*tpa=http://www.taipuglobal.com/images/brand-07.png*/ center 170px;}
+.makey_index_brand_content .index_brand08{ display:block; width:240px; height:170px; background:url(brand-08.png)/*tpa=http://www.taipuglobal.com/images/brand-08.png*/}
+.makey_index_brand_content .index_brand08:hover{ background:url(brand-08.png)/*tpa=http://www.taipuglobal.com/images/brand-08.png*/ center 169px;}
+
+
+
+.makey_index_brand_page  {width:150px; margin:0 auto;text-align:center;}
+.makey_index_brand_page img{margin:0 1px} 
+
+
+.makey_index_footbox{ width:100%; height:260px; background:#333333}
+.makey_foot{ width:1000px; margin:0 auto; color:#999999; font-size:14px; font-family:"微软雅黑"}
+.makey_foot img{ border:none;}
+.makey_foot_logo{ float:left; width:161px; height:25px; padding-top:40px;}
+.makey_foot_nav{ float:left; width:700px; height:120px; padding-top:40px;}
+.makey_foot_nav ul{ float:left; padding-left:60px; height:120px; width:90px;}
+.makey_foot_nav ul li{ float:left; width:90px; padding-bottom:5px; list-style:none}
+.makey_foot_nav ul li a{ color:#999999; text-decoration:none}
+.makey_foot_nav ul li a:hover{ color:#cccccc}
+.makey_foot_erweima{ float:left; width:106px; height:104px; padding-top:40px; padding-left:30px;}
+
+.makey_foot_copy{ width:1000px; margin:0 auto; color:#5b5b5b; font-size:13px; padding-top:10px; border-top:1px #5b5b5b solid; margin-top:40px;}
+
+
+.makey_c_topbox{ width:100%; position:relative}
+.makey_c_banner{ width:100%; height:390px; background:url(sub_banner01.jpg)/*tpa=http://www.taipuglobal.com/images/sub_banner01.jpg*/ center repeat-x}
+
+.c_munebox{ width:100%; height:59px; background:#FFF; border-bottom:1px solid #d4d4d4; height: 59px;}
+.c_muneboxw{float: left;position: relative;left: 50%; }
+.c_mune{float: left;position: relative;left:-50%; }
+.c_mune li{ width:100px; height:57px; text-align:center; float:left; list-style:none; font-size:16px; border-bottom:2px #fff solid; margin:0 10px;}
+.c_mune li:hover{ border-bottom:#d90514;}
+.c_mune li .hover{ color:#d90514;  border-bottom:2px #d90514 solid;}
+.c_mune li a{ padding-top:20px; width:100px; height:37px; display:block; text-align:center; text-decoration:none}
+.c_mune li a:hover{ color:#d90514; }
+
+
+.c_content{ width:100%}
+
+
+.c_c1_01{ width:100%; text-align:center; padding-top:30px; padding-bottom:30px;}
+.c_c1_01_text{ width:990px; margin:0 auto; font-size:15px; line-height:30px; padding-top:30px; color:#999999; padding-bottom:74px;}
+.c_c1_01_img{ width:100%; height:304px; background:url(content_img01.jpg)/*tpa=http://www.taipuglobal.com/images/content_img01.jpg*/ center; margin:1px auto;}
+.c_c1_02_text{ width:980px; margin:0 auto; font-size:15px; line-height:30px; padding-top:30px; color:#999999; padding-bottom:24px;}
+.c_c1_02_text img{ padding-top:25px;}
+.c_c1_02_text_ico{ width:690px; height:200px; padding-bottom:50px;}
+.c_c1_02_text_ico li{ float:left; list-style:none; width:228px; text-align:center}
+.c_c1_02_text_ico li p{ font-size:18px; color:#666; padding:10px 0;}
+.c_c1_03{ width:100%; text-align:center; padding-top:30px; padding-bottom:30px;}
+.c_c1_01_line{ width:1000px; height:2px; margin-top:66px; margin-bottom:35px; margin-left:auto; margin-right:auto;border-top:1px solid #f0f0f0}
+
+.c_c1_01_STORY{ width:1100px; margin:40px auto 0 auto; background:url(C_C2_bg.jpg)/*tpa=http://www.taipuglobal.com/images/C_C2_bg.jpg*/ center repeat-y}
+.c_c1_01_STORYYEAR_box{ width:1100px; height:108px; padding:30px 0; float:left}
+.C_C1_year{ width:108px; height:75px; padding-top:33px; margin:0 auto; text-align:center; font-size:30px; color:#FFF; font-family:"微软雅黑"; background:url(C_C2_year_bg.png)/*tpa=http://www.taipuglobal.com/images/C_C2_year_bg.png*/}
+
+.c_c1_01_STORYMOUTH_R_box{ width:1100px; padding:10px 0; float:left; background:url(C_C2_QUAN_bg_R.png)/*tpa=http://www.taipuglobal.com/images/C_C2_QUAN_bg_R.png*/ no-repeat 543px 1px;}
+.c_c1_01_STORYMOUTH_R1_box{ width:1100px; padding:10px 0; float:left; background:url(C_C2_QUAN_bg_R1.png)/*tpa=http://www.taipuglobal.com/images/C_C2_QUAN_bg_R1.png*/ no-repeat 543px 1px;}
+.C_C1_MOUTH_R{ line-height:24px; font-size:15px; color:#666; width:500px; text-align:right; float:left}
+.C_C1_MOUTH_S_R{ width:468px; font-size:18px; color:#f0454d; float:right; text-align:left;}
+.c_c1_01_STORYMOUTH_L_box{ width:1100px; padding:10px 0; float:left; background:url(C_C2_QUAN_bg_L.png)/*tpa=http://www.taipuglobal.com/images/C_C2_QUAN_bg_L.png*/ no-repeat 417px 1px;}
+.c_c1_01_STORYMOUTH_L1_box{ width:1100px; padding:10px 0; float:left; background:url(C_C2_QUAN_bg_L1.png)/*tpa=http://www.taipuglobal.com/images/C_C2_QUAN_bg_L1.png*/ no-repeat 417px 1px;}
+.C_C1_MOUTH_L{ line-height:24px; font-size:15px; color:#666; width:500px; text-align:left; float:right}
+.C_C1_MOUTH_S_L{ width:468px; font-size:18px; color:#f0454d; float:left; text-align:right;}
+.c_c1_01_STORY_foot{ width:1100px; text-align:center; padding-bottom:40px;}
+
+
+.makey_c_banner_02{ width:100%; height:390px; background:url(sub_banner02.jpg)/*tpa=http://www.taipuglobal.com/images/sub_banner02.jpg*/ center repeat-x}
+.c_c2_01_box{ width:1000px; margin:0 auto; padding-top:60px; padding-bottom:80px; font-size:14px; line-height:24px; color:#999; text-align:left}
+.c_c2_01_box li{ width:234px; float:left; height:520px; border:1px solid #d8e0e3; list-style:none; margin-right:18px;}
+.c_c2_01_box li div{ padding:5px 15px; font-size:13px;}
+.c_c2_01_box li div p{ font-size:16px; color:#4a4a4a; padding-bottom:6px;}
+
+
+.c_c2_01_img{ width:100%; height:762px; background:url(c3_img04.jpg)/*tpa=http://www.taipuglobal.com/images/c3_img04.jpg*/ center; margin:0 auto;}
+
+.c_c2_02_box{ width:1000px; margin:0 auto; text-align:left; padding-bottom:110px;}
+.c_c2_02_box_L{ width:1000px; float:left; padding-bottom:15px;}
+.c_c2_02_box_L img{ float:left; margin-right:80px;}
+.c_c2_02_box_L div{ font-size:15px; color:#666; line-height:22px; float:left}
+.c_c2_02_box_L p{ font-size:20px; padding-bottom:15px; color:#4a4a4a}
+.c_c2_02_box_R{ width:1000px; float:left; padding-bottom:15px;}
+.c_c2_02_box_R img{ float:left;}
+.c_c2_02_box_R div{ font-size:15px; color:#666; line-height:22px; float:left; margin-right:80px;}
+.c_c2_02_box_R p{ font-size:20px; padding-bottom:15px; color:#4a4a4a}
+
+
+
+.c_c2_02{width:1000px; padding:40px; margin:0 auto;}
+.c_c2_02list{ width:998px; border:1px solid #e4e4e4; margin-bottom:20px;}
+.c_c2_02list a{ text-decoration:none}
+.c_c2_02brandbox{ width:916px; padding-left:82px; height:74px; text-align:center; float:left; cursor:pointer}
+.c_c2_02brandbox img{ padding-top:10px;}
+.c_c2_02brandlist{ width:600px; margin-left:250px; float:left; padding-bottom:24px;}
+.c_c2_02brandlist ul{ float:left; width:180px; margin-right:20px;}
+.c_c2_02brandlist ul li{ float:left; list-style:none; width:180px; height:32px; line-height:30px; font-size:14px; text-align:center; }
+.c_c2_02brandlist ul li a:hover{ color:#d90514;}
+.c_c2_02 .subNav{ background:url(icon_c02_01.png)/*tpa=http://www.taipuglobal.com/images/icon_c02_01.png*/ 0px 0px no-repeat;}
+.c_c2_02 .currentDt{ background:url(icon_c02_02.png)/*tpa=http://www.taipuglobal.com/images/icon_c02_02.png*/ 0px 0px no-repeat;}
+
+.c_c2_03{width:100%; text-align:center; padding-top:20px; padding-bottom:44px;}
+.c_c2_03_text{ width:990px; margin:0 auto; font-size:15px; line-height:30px; padding-top:30px; color:#999999}
+
+
+.makey_c_banner_03{ width:100%; height:390px; background:url(sub_banner03.jpg)/*tpa=http://www.taipuglobal.com/images/sub_banner03.jpg*/ center repeat-x}
+.c_c3_01{ width:1000px; margin:0 auto; padding:30px 0 60px 0;}
+.c_c3_01_list{ width:1000px; padding-top:40px; padding-bottom:38px; border-bottom:1px dotted #e4e4e4}
+.c_c3_01_list_date{ width:78px; height:78px; padding:10px; border:1px solid #e4e4e4; float:left; margin-right:20px;}
+.c_c3_01_list_date .date_yearmouth{ width:78px; text-align:center; padding-bottom:5px; font-size:12px; color:#868e9c; padding-top:8px;}
+.c_c3_01_list_date .date_day{ width:78px; text-align:center; font-size:34px; font-weight:bold; color:#868e9c}
+.c_c3_01_list_con{ width:840px; float:left; padding-left:40px;}
+.c_c3_01_list_con .con_title{ font-size:20px; font-weight:bold; padding-bottom:15px;}
+.c_c3_01_list_con .con_content{ font-size:14px; line-height:24px; padding-bottom:5px; color:#666666}
+.c_c3_01_list_con .con_btn{ padding-top:23px;}
+.c_c3_01_list_con .con_btn a{ width:120px; height:37px; display:block; background:url(btn_01.png)/*tpa=http://www.taipuglobal.com/images/btn_01.png*/; float:left}
+.c_c3_01_list_con .con_btn a:hover{ background:url(btn_02.png)/*tpa=http://www.taipuglobal.com/images/btn_02.png*/}
+.c_c3_01 .pages{ padding-top:20px; padding-bottom:20px;}
+.c_c3_01 .pages a{ display:block; padding:15px 10px; border:1px solid #f0f0f0; margin-right:8px; float:left;  text-decoration:none; font-size:16px;  font-family:"微软雅黑";}
+.c_c3_01 .pages a:hover{ background:#f0454d; color:#FFF}
+.c_c3_01 .pages .phover{ display:block; padding:15px 10px; margin-right:8px; float:left;  text-decoration:none; font-size:16px;  font-family:"微软雅黑";background:#f0454d; color:#FFF; font-weight:bold;}
+.c_c3_01 .pages .pagesstyle{ display:block; padding:12px 10px; border:1px solid #f0f0f0; margin-right:8px; float:left;  text-decoration:none; font-size:16px;  font-family:"微软雅黑";}
+
+
+
+.makey_c_banner_04{ width:100%; height:390px; background:url(sub_banner04.jpg)/*tpa=http://www.taipuglobal.com/images/sub_banner04.jpg*/ center repeat-x}
+.c_c4_01{ width:1000px; margin:0 auto; padding:56px 0;}
+.c_c4_01title{ width:900px; height:24px; line-height:24px; padding:15px 50px; background:#464650}
+.c_c4_01title li{ float:left ; list-style:none; font-size:14px;  color:#FFF; padding-right:210px;}
+.c_c4_01con{ width:900px; background:#FFF; padding:20px 50px 50px 50px;}
+.c_c4_01conlist{ width:900px; padding-bottom:15px; padding-top:15px; height:30px; line-height:30px; border-bottom:1px solid #efefef; cursor:pointer}
+.c_c4_01conlist li{float:left ; list-style:none; font-size:15px; width:240px; padding-right:33px;}
+.c_c4_01conlist .c_c4_01conlist_red{ width:80px; padding-right:0px; font-size:14px; color:#d90514; text-align:right}
+.c_c4_01concontent{ width:850px; background:#f3f3f3; padding:28px 25px; margin-top:10px; margin-bottom:20px;}
+.c_c4_01concontent_top{ padding-bottom:38px; height:14px; line-height:14px; border-bottom:1px solid #CCC}
+.c_c4_01concontent_top li{ width:25%; float:left; list-style:none; height:30px; line-height:30px;}
+.c_c4_01concontent_con{ width:850px; margin-top:30px; line-height:24px;}
+.c_c4_01concontent_con p{ font-size:18px; color:#333; padding-bottom:20px;}
+.c_c4_01concontent_conl{ width:400px; float:left; padding-right:20px; border-right:1px solid #CCC; font-size:12px; line-height:24px; color:#666}
+.c_c4_01concontent_conr{ width:400px; float:left; padding-left:20px; font-size:12px; line-height:24px; color:#666}
+
+
+.makey_c_banner_05{ width:100%; height:390px; background:url(sub_banner05.jpg)/*tpa=http://www.taipuglobal.com/images/sub_banner05.jpg*/ center repeat-x}
+.c_c5_01{ width:1000px; margin:0 auto;}
+.c_c5_01left{ width:620px; float:left; padding-top:50px;}
+.c_c5_01right{ width:280px; height:170px; padding:20px 40px; border:3px solid #f8f8f8; float:left; margin-top:30px;}
+.c_c5_01title01{ padding-bottom:12px; font-size:28px; color:#333; padding-left:30px; background:url(c5_icon01.png)/*tpa=http://www.taipuglobal.com/images/c5_icon01.png*/ no-repeat;}
+.c_c5_01title02{ padding-bottom:22px; font-size:28px; color:#333; padding-left:36px; background:url(c5-icon02.png)/*tpa=http://www.taipuglobal.com/images/c5-icon02.png*/ no-repeat}
+.c_c5_01title03{ font-size:16px; color:#333; font-weight:bold; padding-bottom:15px; padding-top:20px;}
+.c_c5_01text01{ font-size:14px; line-height:20px; color:#666; padding-bottom:10px; padding-left:25px; background:url(c5-icon03.png)/*tpa=http://www.taipuglobal.com/images/c5-icon03.png*/ no-repeat 1px 2px}
+.c_c5_01text02{ font-size:14px; line-height:20px; color:#666; padding-bottom:10px; padding-left:25px; background:url(c5-icon04.png)/*tpa=http://www.taipuglobal.com/images/c5-icon04.png*/ no-repeat 1px 2px}
+.c_c5_01text03{ font-size:14px; line-height:20px; color:#666; padding-bottom:10px; padding-left:25px; background:url(c5-icon05.png)/*tpa=http://www.taipuglobal.com/images/c5-icon05.png*/ no-repeat 1px 2px}
+.c_c5_01text04{ font-size:14px; line-height:20px; color:#666; padding-bottom:10px; padding-left:25px; background:url(c5-icon06.png)/*tpa=http://www.taipuglobal.com/images/c5-icon06.png*/ no-repeat 1px 2px}
+.c_c5_01text05{ font-size:16px; line-height:32px; color:#666;}
+
+
+.v_box{ width:100%; background:#f3f3f3; padding-top:30px; padding-bottom:50px;}
+.v_box .v_pos{ width:980px; padding-left:20px; margin:0 auto; background:url(v_icon_01.png)/*tpa=http://www.taipuglobal.com/images/v_icon_01.png*/ no-repeat; font-size:14px; color:#999}
+.v_box .v_pos a{color:#999; text-decoration:none}
+.v_box .v_con{ width:960px; padding:20px; background:#FFF; margin-top:20px;}
+.v_box .v_con .v_con_title{ width:750px; padding:20px 50px; font-size:28px; font-weight:bold; text-align:center; margin:0 auto; line-height:36px;}
+.v_box .v_con .v_con_whiter{ width:750px; padding:10px 50px 20px 50px; font-size:14px; text-align:center; color:#999}
+.v_box .v_con .v_con_conlue{ width:860px; padding:20px; margin:0 auto; background:#fefafa; font-size:15px; color:#b6b4b4; line-height:24px;}
+.v_box .v_con .v_con_content{ width:860px; padding:20px; margin:0 auto; font-size:15px; line-height:30px; padding-top:30px; color:#999999; text-indent:32px}
+
+
+
+
+
